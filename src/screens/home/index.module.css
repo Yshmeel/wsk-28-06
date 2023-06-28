@@ -1,0 +1,66 @@
+.root {
+
+}
+
+.sectionContainer {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filterButtons {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    order: 1;
+}
+
+.filterCreate {
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+.headerLeft {
+
+}
+
+.headerLeftText {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 5px;
+}
+
+.headerLeftDescription {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.headerRight {
+
+}
+
+.list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.loading {
+    margin-top: 10px;
+}

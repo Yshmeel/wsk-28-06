@@ -1,0 +1,32 @@
+.root {
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 15px 0 0;
+    flex: 1 0 auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image {
+    overflow: hidden;
+    width: 190px;
+    height: 190px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.imageElement {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background: #5d5d5d;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.name {
+    font-weight: bold;
+}

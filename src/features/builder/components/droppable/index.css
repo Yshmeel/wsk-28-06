@@ -1,0 +1,4 @@
+.drag-over {
+    transition: .2s ease;
+    opacity: .5;
+}

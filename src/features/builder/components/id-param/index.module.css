@@ -1,0 +1,70 @@
+.closeButton {
+    background: #ddd;
+    border: none;
+    border-radius: 100%;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    font-weight: bold;
+    font-family: Tahoma;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.closeButton:hover {
+    background: #c7c7c7;
+}
+
+.empty {
+    height: 200px;
+    width: 100%;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 8px;
+}
+
+.value {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+.valueImage {
+    width: 64px;
+    height: 64px;
+}
+
+.root {
+}
+
+.header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLeft {
+    font-weight: bold;
+}
+
+.headerRight {
+
+}
+
+.close {
+
+}
+
+.count {
+    width: 100px;
+}

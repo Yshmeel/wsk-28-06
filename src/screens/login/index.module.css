@@ -1,0 +1,45 @@
+.root {
+    background: #eee;
+    padding: 30px;
+    max-width: 1330px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.header {
+}
+
+.headerTitle {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 0 5px;
+}
+
+.headerText {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 0 20px;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.formInput {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formButton {
+
+}
+
+.sectionContainer {
+    max-width: 1330px;
+    margin: 0 auto;
+}

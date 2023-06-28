@@ -1,0 +1,22 @@
+.tab-button {
+    background: #727272;
+    color: #e5e5e5;
+    border: none;
+    padding: 5px 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    transition: .2s ease;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.tab-button:hover {
+    background: #9b9b9b;
+    color: #eeeeee;
+}
+
+.tab-button.active {
+    background: #1a6b2d;
+    color: #ecfcef;
+}
